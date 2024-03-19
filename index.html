@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=AP5xjIGt"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee&family=Bungee+Spice&family=Honk&family=Micro+5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>GG</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__content">
+            <div class="container__informations">
+                <div class="container__text">
+                    <h1>Guess the<span class="container__texto-azul">Secret Number</span></h1>
+                    <p class="text__paragraph">Choose a number between 1 and 10</p>
+                </div>
+                <input type="number" min="1" max="10" class="container__input">
+                <div class="guess container__buttoms">
+                    <button onclick="verifyGuess()" class="container__buttom">Guess</button>
+                    <button onclick="restartGame()" id="restart" class="container__buttom" disabled>New Game</button>
+                </div>
+            </div>
+            <img src="./img/ia.png" alt="A person looking to the left side" class="container__GumballDrawin" />
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
